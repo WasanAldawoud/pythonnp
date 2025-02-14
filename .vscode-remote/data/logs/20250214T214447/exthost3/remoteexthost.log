@@ -1,0 +1,81 @@
+2025-02-14 22:14:09.386 [info] Extension host with pid 5406 started
+2025-02-14 22:14:09.388 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/-36cf1506/vscode.lock': Lock acquired.
+2025-02-14 22:14:09.675 [info] ExtensionService#_doActivateExtension gitpod.gitpod-web, startup: false, activationEvent: 'onAuthenticationRequest:gitpod'
+2025-02-14 22:14:09.676 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2025-02-14 22:14:09.676 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-02-14 22:14:10.666 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2025-02-14 22:14:10.729 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-02-14 22:14:11.185 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-02-14 22:14:11.185 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-02-14 22:14:11.552 [info] Eager extensions activated
+2025-02-14 22:14:11.552 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-02-14 22:14:11.553 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-02-14 22:14:11.553 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onStartupFinished', root cause: GitHub.vscode-pull-request-github
+2025-02-14 22:14:11.639 [info] ExtensionService#_doActivateExtension redhat.vscode-yaml, startup: false, activationEvent: 'onLanguage:yaml'
+2025-02-14 22:14:11.856 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2025-02-14 22:14:12.343 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2025-02-14 22:14:12.345 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2025-02-14 22:14:12.602 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-02-14 22:14:12.602 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-02-14 22:14:12.602 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-02-14 22:14:21.113 [info] ExtensionService#_doActivateExtension ms-vscode.js-debug, startup: false, activationEvent: 'onDebugDynamicConfigurations'
+2025-02-14 22:14:24.353 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2025-02-14 22:14:32.243 [error] Error: Invalid debug adapter
+    at g5t.p (https://ide.gitpod.io/blobserve/eu.gcr.io/gitpod-core-dev/build/ide/code:commit-c48d05d9b0313b002661fb71a524d911ce2ecc1d/__files__/out/vs/gitpod/browser/workbench/workbench.js:748:95)
+    at g5t.$acceptDAExit (https://ide.gitpod.io/blobserve/eu.gcr.io/gitpod-core-dev/build/ide/code:commit-c48d05d9b0313b002661fb71a524d911ce2ecc1d/__files__/out/vs/gitpod/browser/workbench/workbench.js:748:35)
+    at Put.S (https://ide.gitpod.io/blobserve/eu.gcr.io/gitpod-core-dev/build/ide/code:commit-c48d05d9b0313b002661fb71a524d911ce2ecc1d/__files__/out/vs/gitpod/browser/workbench/workbench.js:3148:28005)
+    at Put.Q (https://ide.gitpod.io/blobserve/eu.gcr.io/gitpod-core-dev/build/ide/code:commit-c48d05d9b0313b002661fb71a524d911ce2ecc1d/__files__/out/vs/gitpod/browser/workbench/workbench.js:3148:27783)
+    at Put.M (https://ide.gitpod.io/blobserve/eu.gcr.io/gitpod-core-dev/build/ide/code:commit-c48d05d9b0313b002661fb71a524d911ce2ecc1d/__files__/out/vs/gitpod/browser/workbench/workbench.js:3148:26871)
+    at Put.L (https://ide.gitpod.io/blobserve/eu.gcr.io/gitpod-core-dev/build/ide/code:commit-c48d05d9b0313b002661fb71a524d911ce2ecc1d/__files__/out/vs/gitpod/browser/workbench/workbench.js:3148:26108)
+    at PZ.value (https://ide.gitpod.io/blobserve/eu.gcr.io/gitpod-core-dev/build/ide/code:commit-c48d05d9b0313b002661fb71a524d911ce2ecc1d/__files__/out/vs/gitpod/browser/workbench/workbench.js:3148:24769)
+    at x.B (https://ide.gitpod.io/blobserve/eu.gcr.io/gitpod-core-dev/build/ide/code:commit-c48d05d9b0313b002661fb71a524d911ce2ecc1d/__files__/out/vs/gitpod/browser/workbench/workbench.js:30:747)
+    at x.fire (https://ide.gitpod.io/blobserve/eu.gcr.io/gitpod-core-dev/build/ide/code:commit-c48d05d9b0313b002661fb71a524d911ce2ecc1d/__files__/out/vs/gitpod/browser/workbench/workbench.js:30:965)
+    at xG.fire (https://ide.gitpod.io/blobserve/eu.gcr.io/gitpod-core-dev/build/ide/code:commit-c48d05d9b0313b002661fb71a524d911ce2ecc1d/__files__/out/vs/gitpod/browser/workbench/workbench.js:762:10351)
+2025-02-14 22:14:36.777 [error] Error: Invalid debug adapter
+    at g5t.p (https://ide.gitpod.io/blobserve/eu.gcr.io/gitpod-core-dev/build/ide/code:commit-c48d05d9b0313b002661fb71a524d911ce2ecc1d/__files__/out/vs/gitpod/browser/workbench/workbench.js:748:95)
+    at g5t.$acceptDAExit (https://ide.gitpod.io/blobserve/eu.gcr.io/gitpod-core-dev/build/ide/code:commit-c48d05d9b0313b002661fb71a524d911ce2ecc1d/__files__/out/vs/gitpod/browser/workbench/workbench.js:748:35)
+    at Put.S (https://ide.gitpod.io/blobserve/eu.gcr.io/gitpod-core-dev/build/ide/code:commit-c48d05d9b0313b002661fb71a524d911ce2ecc1d/__files__/out/vs/gitpod/browser/workbench/workbench.js:3148:28005)
+    at Put.Q (https://ide.gitpod.io/blobserve/eu.gcr.io/gitpod-core-dev/build/ide/code:commit-c48d05d9b0313b002661fb71a524d911ce2ecc1d/__files__/out/vs/gitpod/browser/workbench/workbench.js:3148:27783)
+    at Put.M (https://ide.gitpod.io/blobserve/eu.gcr.io/gitpod-core-dev/build/ide/code:commit-c48d05d9b0313b002661fb71a524d911ce2ecc1d/__files__/out/vs/gitpod/browser/workbench/workbench.js:3148:26871)
+    at Put.L (https://ide.gitpod.io/blobserve/eu.gcr.io/gitpod-core-dev/build/ide/code:commit-c48d05d9b0313b002661fb71a524d911ce2ecc1d/__files__/out/vs/gitpod/browser/workbench/workbench.js:3148:26108)
+    at PZ.value (https://ide.gitpod.io/blobserve/eu.gcr.io/gitpod-core-dev/build/ide/code:commit-c48d05d9b0313b002661fb71a524d911ce2ecc1d/__files__/out/vs/gitpod/browser/workbench/workbench.js:3148:24769)
+    at x.B (https://ide.gitpod.io/blobserve/eu.gcr.io/gitpod-core-dev/build/ide/code:commit-c48d05d9b0313b002661fb71a524d911ce2ecc1d/__files__/out/vs/gitpod/browser/workbench/workbench.js:30:747)
+    at x.fire (https://ide.gitpod.io/blobserve/eu.gcr.io/gitpod-core-dev/build/ide/code:commit-c48d05d9b0313b002661fb71a524d911ce2ecc1d/__files__/out/vs/gitpod/browser/workbench/workbench.js:30:965)
+    at xG.fire (https://ide.gitpod.io/blobserve/eu.gcr.io/gitpod-core-dev/build/ide/code:commit-c48d05d9b0313b002661fb71a524d911ce2ecc1d/__files__/out/vs/gitpod/browser/workbench/workbench.js:762:10351)
+2025-02-14 22:15:43.693 [error] Error: Invalid debug adapter
+    at g5t.p (https://ide.gitpod.io/blobserve/eu.gcr.io/gitpod-core-dev/build/ide/code:commit-c48d05d9b0313b002661fb71a524d911ce2ecc1d/__files__/out/vs/gitpod/browser/workbench/workbench.js:748:95)
+    at g5t.$acceptDAExit (https://ide.gitpod.io/blobserve/eu.gcr.io/gitpod-core-dev/build/ide/code:commit-c48d05d9b0313b002661fb71a524d911ce2ecc1d/__files__/out/vs/gitpod/browser/workbench/workbench.js:748:35)
+    at Put.S (https://ide.gitpod.io/blobserve/eu.gcr.io/gitpod-core-dev/build/ide/code:commit-c48d05d9b0313b002661fb71a524d911ce2ecc1d/__files__/out/vs/gitpod/browser/workbench/workbench.js:3148:28005)
+    at Put.Q (https://ide.gitpod.io/blobserve/eu.gcr.io/gitpod-core-dev/build/ide/code:commit-c48d05d9b0313b002661fb71a524d911ce2ecc1d/__files__/out/vs/gitpod/browser/workbench/workbench.js:3148:27783)
+    at Put.M (https://ide.gitpod.io/blobserve/eu.gcr.io/gitpod-core-dev/build/ide/code:commit-c48d05d9b0313b002661fb71a524d911ce2ecc1d/__files__/out/vs/gitpod/browser/workbench/workbench.js:3148:26871)
+    at Put.L (https://ide.gitpod.io/blobserve/eu.gcr.io/gitpod-core-dev/build/ide/code:commit-c48d05d9b0313b002661fb71a524d911ce2ecc1d/__files__/out/vs/gitpod/browser/workbench/workbench.js:3148:26108)
+    at PZ.value (https://ide.gitpod.io/blobserve/eu.gcr.io/gitpod-core-dev/build/ide/code:commit-c48d05d9b0313b002661fb71a524d911ce2ecc1d/__files__/out/vs/gitpod/browser/workbench/workbench.js:3148:24769)
+    at x.B (https://ide.gitpod.io/blobserve/eu.gcr.io/gitpod-core-dev/build/ide/code:commit-c48d05d9b0313b002661fb71a524d911ce2ecc1d/__files__/out/vs/gitpod/browser/workbench/workbench.js:30:747)
+    at x.fire (https://ide.gitpod.io/blobserve/eu.gcr.io/gitpod-core-dev/build/ide/code:commit-c48d05d9b0313b002661fb71a524d911ce2ecc1d/__files__/out/vs/gitpod/browser/workbench/workbench.js:30:965)
+    at xG.fire (https://ide.gitpod.io/blobserve/eu.gcr.io/gitpod-core-dev/build/ide/code:commit-c48d05d9b0313b002661fb71a524d911ce2ecc1d/__files__/out/vs/gitpod/browser/workbench/workbench.js:762:10351)
+2025-02-14 22:16:26.122 [error] Error: Invalid debug adapter
+    at g5t.p (https://ide.gitpod.io/blobserve/eu.gcr.io/gitpod-core-dev/build/ide/code:commit-c48d05d9b0313b002661fb71a524d911ce2ecc1d/__files__/out/vs/gitpod/browser/workbench/workbench.js:748:95)
+    at g5t.$acceptDAExit (https://ide.gitpod.io/blobserve/eu.gcr.io/gitpod-core-dev/build/ide/code:commit-c48d05d9b0313b002661fb71a524d911ce2ecc1d/__files__/out/vs/gitpod/browser/workbench/workbench.js:748:35)
+    at Put.S (https://ide.gitpod.io/blobserve/eu.gcr.io/gitpod-core-dev/build/ide/code:commit-c48d05d9b0313b002661fb71a524d911ce2ecc1d/__files__/out/vs/gitpod/browser/workbench/workbench.js:3148:28005)
+    at Put.Q (https://ide.gitpod.io/blobserve/eu.gcr.io/gitpod-core-dev/build/ide/code:commit-c48d05d9b0313b002661fb71a524d911ce2ecc1d/__files__/out/vs/gitpod/browser/workbench/workbench.js:3148:27783)
+    at Put.M (https://ide.gitpod.io/blobserve/eu.gcr.io/gitpod-core-dev/build/ide/code:commit-c48d05d9b0313b002661fb71a524d911ce2ecc1d/__files__/out/vs/gitpod/browser/workbench/workbench.js:3148:26871)
+    at Put.L (https://ide.gitpod.io/blobserve/eu.gcr.io/gitpod-core-dev/build/ide/code:commit-c48d05d9b0313b002661fb71a524d911ce2ecc1d/__files__/out/vs/gitpod/browser/workbench/workbench.js:3148:26108)
+    at PZ.value (https://ide.gitpod.io/blobserve/eu.gcr.io/gitpod-core-dev/build/ide/code:commit-c48d05d9b0313b002661fb71a524d911ce2ecc1d/__files__/out/vs/gitpod/browser/workbench/workbench.js:3148:24769)
+    at x.B (https://ide.gitpod.io/blobserve/eu.gcr.io/gitpod-core-dev/build/ide/code:commit-c48d05d9b0313b002661fb71a524d911ce2ecc1d/__files__/out/vs/gitpod/browser/workbench/workbench.js:30:747)
+    at x.fire (https://ide.gitpod.io/blobserve/eu.gcr.io/gitpod-core-dev/build/ide/code:commit-c48d05d9b0313b002661fb71a524d911ce2ecc1d/__files__/out/vs/gitpod/browser/workbench/workbench.js:30:965)
+    at xG.fire (https://ide.gitpod.io/blobserve/eu.gcr.io/gitpod-core-dev/build/ide/code:commit-c48d05d9b0313b002661fb71a524d911ce2ecc1d/__files__/out/vs/gitpod/browser/workbench/workbench.js:762:10351)
+2025-02-14 22:19:14.456 [error] Error: Invalid debug adapter
+    at g5t.p (https://ide.gitpod.io/blobserve/eu.gcr.io/gitpod-core-dev/build/ide/code:commit-c48d05d9b0313b002661fb71a524d911ce2ecc1d/__files__/out/vs/gitpod/browser/workbench/workbench.js:748:95)
+    at g5t.$acceptDAExit (https://ide.gitpod.io/blobserve/eu.gcr.io/gitpod-core-dev/build/ide/code:commit-c48d05d9b0313b002661fb71a524d911ce2ecc1d/__files__/out/vs/gitpod/browser/workbench/workbench.js:748:35)
+    at Put.S (https://ide.gitpod.io/blobserve/eu.gcr.io/gitpod-core-dev/build/ide/code:commit-c48d05d9b0313b002661fb71a524d911ce2ecc1d/__files__/out/vs/gitpod/browser/workbench/workbench.js:3148:28005)
+    at Put.Q (https://ide.gitpod.io/blobserve/eu.gcr.io/gitpod-core-dev/build/ide/code:commit-c48d05d9b0313b002661fb71a524d911ce2ecc1d/__files__/out/vs/gitpod/browser/workbench/workbench.js:3148:27783)
+    at Put.M (https://ide.gitpod.io/blobserve/eu.gcr.io/gitpod-core-dev/build/ide/code:commit-c48d05d9b0313b002661fb71a524d911ce2ecc1d/__files__/out/vs/gitpod/browser/workbench/workbench.js:3148:26871)
+    at Put.L (https://ide.gitpod.io/blobserve/eu.gcr.io/gitpod-core-dev/build/ide/code:commit-c48d05d9b0313b002661fb71a524d911ce2ecc1d/__files__/out/vs/gitpod/browser/workbench/workbench.js:3148:26108)
+    at PZ.value (https://ide.gitpod.io/blobserve/eu.gcr.io/gitpod-core-dev/build/ide/code:commit-c48d05d9b0313b002661fb71a524d911ce2ecc1d/__files__/out/vs/gitpod/browser/workbench/workbench.js:3148:24769)
+    at x.B (https://ide.gitpod.io/blobserve/eu.gcr.io/gitpod-core-dev/build/ide/code:commit-c48d05d9b0313b002661fb71a524d911ce2ecc1d/__files__/out/vs/gitpod/browser/workbench/workbench.js:30:747)
+    at x.fire (https://ide.gitpod.io/blobserve/eu.gcr.io/gitpod-core-dev/build/ide/code:commit-c48d05d9b0313b002661fb71a524d911ce2ecc1d/__files__/out/vs/gitpod/browser/workbench/workbench.js:30:965)
+    at xG.fire (https://ide.gitpod.io/blobserve/eu.gcr.io/gitpod-core-dev/build/ide/code:commit-c48d05d9b0313b002661fb71a524d911ce2ecc1d/__files__/out/vs/gitpod/browser/workbench/workbench.js:762:10351)
+2025-02-14 22:23:17.359 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4807
+2025-02-14 22:23:17.954 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4807
+2025-02-14 22:23:23.992 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4807
+2025-02-14 22:23:29.067 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4807

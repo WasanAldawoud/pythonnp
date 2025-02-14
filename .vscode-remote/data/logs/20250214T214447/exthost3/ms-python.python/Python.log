@@ -1,0 +1,23 @@
+2025-02-14 22:14:10.738 [warning] Dir "/workspace/.pixi/envs" is not watchable (directory does not exist)
+2025-02-14 22:14:10.738 [info] Python interpreter path: ~/.pyenv/shims/python
+2025-02-14 22:14:11.277 [info] > ~/.pyenv/bin/pyenv which python
+2025-02-14 22:14:11.278 [info] cwd: .
+2025-02-14 22:14:12.555 [info] Starting Jedi language server for workspace.
+2025-02-14 22:14:28.871 [info] Send text to terminal:  /usr/bin/env /home/gitpod/.pyenv/shims/python /workspace/.vscode-remote/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 44031 -- /workspace/boilerplate-mean-variance-standard-deviation-calculator/mean_var_std.py 
+2025-02-14 22:14:33.252 [info] Send text to terminal: 
+2025-02-14 22:14:33.452 [info] Send text to terminal:  cd /workspace ; /usr/bin/env /home/gitpod/.pyenv/shims/python /workspace/.vscode-remote/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 50609 -- /workspace/boilerplate-mean-variance-standard-deviation-calculator/mean_var_std.py 
+2025-02-14 22:15:21.748 [info] Discover tests for workspace name: workspace - uri: /workspace/boilerplate-mean-variance-standard-deviation-calculator/mean_var_std.py
+2025-02-14 22:15:23.423 [info] Discover tests for workspace name: workspace - uri: /workspace/boilerplate-mean-variance-standard-deviation-calculator/mean_var_std.py
+2025-02-14 22:15:28.018 [info] Discover tests for workspace name: workspace - uri: /workspace/boilerplate-mean-variance-standard-deviation-calculator/mean_var_std.py
+2025-02-14 22:15:39.885 [info] Send text to terminal: 
+2025-02-14 22:15:40.085 [info] Send text to terminal:  cd /workspace ; /usr/bin/env /home/gitpod/.pyenv/shims/python /workspace/.vscode-remote/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 34939 -- /workspace/boilerplate-mean-variance-standard-deviation-calculator/mean_var_std.py 
+2025-02-14 22:15:53.159 [info] Discover tests for workspace name: workspace - uri: /workspace/boilerplate-mean-variance-standard-deviation-calculator/mean_var_std.py
+2025-02-14 22:15:59.635 [info] Discover tests for workspace name: workspace - uri: /workspace/boilerplate-mean-variance-standard-deviation-calculator/mean_var_std.py
+2025-02-14 22:16:04.556 [info] Discover tests for workspace name: workspace - uri: /workspace/boilerplate-mean-variance-standard-deviation-calculator/mean_var_std.py
+2025-02-14 22:16:08.395 [info] Discover tests for workspace name: workspace - uri: /workspace/boilerplate-mean-variance-standard-deviation-calculator/mean_var_std.py
+2025-02-14 22:16:22.124 [info] Send text to terminal: 
+2025-02-14 22:16:22.324 [info] Send text to terminal:  cd /workspace ; /usr/bin/env /home/gitpod/.pyenv/shims/python /workspace/.vscode-remote/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 37383 -- /workspace/boilerplate-mean-variance-standard-deviation-calculator/mean_var_std.py 
+2025-02-14 22:18:42.163 [info] Send text to terminal: /home/gitpod/.pyenv/shims/python /workspace/boilerplate-mean-variance-standard-deviation-calculator/main.py
+2025-02-14 22:19:10.478 [info] Send text to terminal: 
+2025-02-14 22:19:10.679 [info] Send text to terminal:  cd /workspace ; /usr/bin/env /home/gitpod/.pyenv/shims/python /workspace/.vscode-remote/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 56115 -- /workspace/boilerplate-mean-variance-standard-deviation-calculator/test_module.py 
+2025-02-14 22:19:41.064 [info] Discover tests for workspace name: workspace - uri: /workspace/boilerplate-mean-variance-standard-deviation-calculator/mean_var_std.py
