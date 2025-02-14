@@ -1,9 +1,0 @@
-2025-02-14 22:12:57.967 [info] Resolving launch configuration with substituted variables
-2025-02-14 22:12:58.457 [info] DAP Server launched with command: /home/gitpod/.pyenv/shims/python /workspace/.vscode-remote/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy/adapter
-2025-02-14 22:12:58.966 [info] Received 'debugpySockets' event from debugpy.
-2025-02-14 22:12:59.252 [info] Received 'debugpySockets' event from debugpy.
-2025-02-14 22:12:59.255 [info] Received 'debugpySockets' event from debugpy.
-2025-02-14 22:13:02.617 [info] Received 'debugpySockets' event from debugpy.
-2025-02-14 22:13:04.328 [info] Received 'debugpySockets' event from debugpy.
-2025-02-14 22:13:04.626 [info] Received 'debugpySockets' event from debugpy.
-2025-02-14 22:14:01.268 [info] Resolving launch configuration with substituted variables
